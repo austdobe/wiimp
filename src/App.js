@@ -1,14 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import { Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
-      <nav>
-        <Link to={"/pantry"}>pantry</Link>
-      </nav>
+      <Navbar />
+      <Outlet />
     </div>
   );
 }

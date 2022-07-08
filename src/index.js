@@ -5,18 +5,27 @@ import {
   Routes,
   Route
 } from 'react-router-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
 import Pantry from './routes/pantry'
+import Profile from './routes/profile';
+import Recipes from './routes/recipes';
+
+import GlobalStyles from './GlobalStyles';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path='/' element={<App />} />
-      <Route path="/pantry" element={<Pantry />} />
+      <Route path='/' element={<App />}>
+        <Route path="pantry" element={<Pantry />} />
+        <Route path="profile" element={<Profile />} />
+        <Route path="recipes" element={<Recipes />} />
+      </Route>
     </Routes>
+    <GlobalStyles />
   </BrowserRouter>
 );
 
