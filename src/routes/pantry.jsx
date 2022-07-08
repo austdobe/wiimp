@@ -1,9 +1,14 @@
+import UserBanner from "../components/UserBanner"
+
 
 
 const Pantry = () => {
+
     return (
+        <>
+            <UserBanner />
         
-        <h1>Pantry</h1>
+        </>
 
     )
 }
