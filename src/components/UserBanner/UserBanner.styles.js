@@ -19,18 +19,17 @@ export const Avatar = styled.img `
 export const Content = styled.div ` 
     height: 100%;
     margin: auto 0;
-    display: flex;
+    display: grid;
     justify-items: center;
     justify-content: center;
     align-items: center;
     align-content: center;
-    border: 1px solid white;
 `
 
 export const Headline = styled.div ` 
     font-size: 16px;
     color: black;
-    font-weight: bold;  
+    font-weight: bold;
 `
 
 export const User = styled.div ` 

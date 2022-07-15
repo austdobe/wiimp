@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import styled from "styled-components";
 
 export const Wrapper = styled.nav ` 
-    width: 100%;
+    width: 100vw;
     height: fit-content;
     display: flex;
     position: fixed;
@@ -22,5 +22,9 @@ export const RouterLink = styled(Link) `
     border: 1px solid white;
     border-radius: 4px;
     text-decoration: none;
+
+    &:hover {
+        background-color: darkgrey;
+    }
 
 `

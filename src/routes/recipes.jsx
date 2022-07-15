@@ -1,8 +1,12 @@
+import UserBanner from "../components/UserBanner"
 
 const Recipes = () => {
 
     return(
-        <h1>Recipes</h1>
+        <>
+            <UserBanner />
+            <h1>Recipes</h1>
+        </>
     )
 
 }

@@ -4,9 +4,9 @@ const Navbar = () => {
 
     return (
         <Wrapper>
-            <RouterLink to={"/pantry"}>Pantry</RouterLink>
-            <RouterLink to={"/profile"}>Profile</RouterLink>
-            <RouterLink to={"/recipes"}>Recipes</RouterLink>
+            <RouterLink to={"/user/pantry"}>Pantry</RouterLink>
+            <RouterLink to={"/user/profile"}>Profile</RouterLink>
+            <RouterLink to={"/user/recipes"}>Recipes</RouterLink>
         </Wrapper>
     )
 }

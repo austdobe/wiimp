@@ -1,10 +1,13 @@
+import UserBanner from "../components/UserBanner"
 
 
 const Profile = () => {
 
     return (
-
-        <h1>Profile</h1>
+        <>
+            <UserBanner />
+            <h1>Profile</h1>`
+        </>
     )
 
 }
