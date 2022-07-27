@@ -1,9 +1,10 @@
+import Form from "../components/Form"
 
 
 const Shopping = () => {
 
     return(
-        <h1>Shopping</h1>
+        <Form />
     )
 }
 

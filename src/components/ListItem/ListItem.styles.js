@@ -17,7 +17,7 @@ export const RouterLink = styled(Link) `
     color: black;
     width: 80%;
     background-color: lightgray;
-    padding: 30px 60px;
+    padding: 50px 60px;
     border-radius: 10px;
     font-weight: 700;
     font-size: 26px;

@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { 
-  RequireAuth,
   BrowserRouter,
   Routes,
   Route
@@ -18,8 +17,6 @@ import Login from './routes/login';
 import User from './routes/user';
 
 import GlobalStyles from './GlobalStyles';
-
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
