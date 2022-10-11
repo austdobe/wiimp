@@ -1,30 +1,25 @@
+import styled from "styled-components"
 import { Link } from 'react-router-dom'
 
-import styled from "styled-components"
 
 
 export const Wrapper = styled.div ` 
-    padding: 10px 20px;
-    display: flex;
-    vertical-align: middle;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    padding: 20px 40px;
+    margin: 50px auto;
+    background: linear-gradient(112.6deg, rgba(200, 200, 200, 1) 76.6%, rgba(100, 100, 100, 1) 116.3%);
+    border-radius: 10px;
+    cursor: pointer;
 
+    &:hover {
+        background: gray;
+    }
 `
     
 export const RouterLink = styled(Link) `
     color: black;
-    width: 80%;
-    background-color: lightgray;
-    padding: 50px 60px;
-    border-radius: 10px;
     font-weight: 700;
     font-size: 26px;
     text-decoration: none;
 
-    &:hover {
-        background-color: gray;
-        cursor: pointer;
-    }
+    
 `

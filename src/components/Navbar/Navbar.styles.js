@@ -6,7 +6,7 @@ export const Wrapper = styled.nav `
     height: fit-content;
     display: flex;
     position: fixed;
-    bottom:0;
+    bottom: 0;
     align-items: center;
     align-content: center;
     justify-items: center;
@@ -23,8 +23,8 @@ export const RouterLink = styled(Link) `
     border-radius: 4px;
     text-decoration: none;
 
-    &:hover {
-        background-color: darkgrey;
+    :hover {
+        background-color: black;
     }
 
 `

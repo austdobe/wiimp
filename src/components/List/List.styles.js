@@ -1,12 +1,20 @@
 import styled from "styled-components";
-import background from "../../images/ListBackground.jpg"
+
+
 
 export const Wrapper = styled.div ` 
-    background: url(${background});
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 75vh;
-    width: 100vw;
-    padding-top: 20px;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    ::-webkit-scrollbar {
+        display: none;
+    }
+`
+
+export const Content = styled.div ` 
+
+
 `

@@ -1,10 +1,13 @@
-
+import { Section } from "./routes.styles"
 
 
 const PantryList = () => {
 
     return(
-        <h1>PantryList</h1>
+        <Section>
+            <h1>PantryList</h1>
+
+        </Section>
     )
 }
 

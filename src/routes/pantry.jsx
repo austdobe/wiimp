@@ -1,5 +1,5 @@
-import UserBanner from "../components/UserBanner"
 import List from "../components/List"
+import PantryDetails from "../components/PantryDetails"
 
 import { Section } from "./routes.styles"
 
@@ -7,7 +7,7 @@ const Pantry = () => {
 
     return (
         <Section>
-            <UserBanner />
+            <PantryDetails />
             <List />
         </Section>
     )

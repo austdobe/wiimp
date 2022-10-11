@@ -1,12 +1,16 @@
-import UserBanner from "../components/UserBanner"
-
+import { Section } from "./routes.styles"
+import PantryDetails from "../components/PantryDetails"
+import RecipesDetails from "../components/RecipesDetails"
 
 const Profile = () => {
 
     return (
         <>
-            <UserBanner />
-            <h1>Profile</h1>`
+            <Section>
+                <h1>Profile</h1>
+                <PantryDetails />
+                <RecipesDetails />
+            </Section>
         </>
     )
 

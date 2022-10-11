@@ -1,11 +1,12 @@
-import UserBanner from "../components/UserBanner"
+import { Section } from "./routes.styles"
 
 const Recipes = () => {
 
     return(
         <>
-            <UserBanner />
-            <h1>Recipes</h1>
+            <Section>
+                <h1>Recipes</h1>
+            </Section>
         </>
     )
 

@@ -4,6 +4,7 @@ export const Wrapper = styled.form `
     margin: 0 auto;
     padding: 10px 20px;
     height: 100%;
+    width: 100%;
     display: grid;
     background-color: lightgray;
 
@@ -12,7 +13,7 @@ export const Wrapper = styled.form `
 export const Input = styled.input ` 
     padding: 10px 20px;
     margin: 10px auto;
-    height: 50px;
+    height: 20px;
     border-radius: 20px;
     width: 80%;
     border: 1px solid black;
